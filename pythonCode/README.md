@@ -5,6 +5,7 @@ Bước 2: Sao chép đường dẫn thư mục đã giải nén
 Bước 3: Mở Command Prompt ở Window
 
 Bước 4: Gõ cd "đường dẫn thư mục vừa sao chép"
+
         Vd: ![image](https://github.com/quanho119/THT_D3-2023/assets/168147971/2c98381b-f037-45e0-a8d8-b4b9b31e27b3)
         Bấm enter
         

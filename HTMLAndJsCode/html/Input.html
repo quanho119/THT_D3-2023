@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Input Mode</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        body{
+            background-image: url(image/Input.png);
+        }
+        table{
+            border-collapse: collapse;
+            background-color: white;
+            height: 50px;
+            width: 400px;
+            position: absolute;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        label{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        input{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            height: 20px;
+            width: 200px;
+        }
+        h1{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            position: absolute;
+            top: 0px;
+            left:500px;
+        }
+        img{
+            position: absolute;
+        }
+        div{
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <h1
+    style="
+            font-size: 50px;"
+    >Input mode</h1>
+    <div style="top: 100px;left:100px">
+        <Label for="waste">Waste</Label>
+        <br>
+        <input type="text" id="waste">
+        <br>
+        <Label for="number">Quantity</Label>
+        <br>
+        <input type="text" id="number">
+        <br>
+        <Label for="status">Status</Label>
+        <br>
+        <input type="text" id="status">
+        <br>
+        <img 
+            src="image/AddButton.png" 
+            alt="Can't load"
+            onclick="Insert()"
+            style="
+                top: 150px;
+                left: -10px"
+        >
+    </div>
+    <div id="table" 
+        style="
+            top: 100px;
+            left: 500px;"
+    ></div>
+    <a href="handle.html"><img src="image/doneButton.png" alt="Can't load" 
+        style="
+            top: 300px;
+            left: 90px;"
+    ></a>
+    <table 
+        style="
+            top: 100px;
+            left: 1000px;
+    ">
+        <tr>
+            <th>Id</th>
+            <th>Name of waste</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>vỏ chai nhựa</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>lá cây</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>giấy không sử dụng</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>nắp chai nhựa</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>que kem gỗ</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>pin</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>cốc giấy</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>que xiêm nhọn</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>dây chun </td>
+        </tr>
+    </table>
+    <script src="js/toInput.js"></script>
+</body>
+</html>
